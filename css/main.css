@@ -5,7 +5,6 @@
 }
 
 /* fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
 
 html {
@@ -44,7 +43,7 @@ html {
   --green-light: #d1e7dd;
   --green-dark: #0f5132;
 
-  /* fonts  */
+  /* fonts */
   --headingFont: 'Roboto', sans-serif;
   --bodyFont: 'Nunito', sans-serif;
   --smallText: 0.7em;
@@ -57,7 +56,7 @@ html {
   --max-width: 1120px;
   --fixed-width: 600px;
 
-  /* box shadow*/
+  /* box shadow */
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
@@ -376,12 +375,7 @@ ul {
   }
 }
 
-/*
-=============== 
-Page
-===============
-*/
-
+/* Page */
 .page {
   width: 90vw;
   max-width: var(--max-width);
@@ -393,12 +387,7 @@ Page
   min-height: calc(100vh - (6rem + 4rem));
 }
 
-/*
-=============== 
-Footer
-===============
-*/
-
+/* Footer */
 .page-footer {
   text-align: center;
   height: 4rem;
@@ -423,12 +412,7 @@ Footer
   color: var(--primary-500);
 }
 
-/*
-=============== 
-Hero
-===============
-*/
-
+/* Hero */
 .hero {
   height: 40vh;
   position: relative;
@@ -462,12 +446,7 @@ Hero
   }
 }
 
-/*
-=============== 
-Recipes 
-===============
-*/
-
+/* Recipes */
 .recipes-container {
   display: grid;
   gap: 2rem 1rem;
@@ -484,7 +463,6 @@ Recipes
   display: flex;
   flex-direction: column;
   padding-bottom: 3rem;
-  /* background: blue; */
 }
 
 .tags-container h4 {
@@ -559,7 +537,6 @@ Recipes
 
   .tags-container {
     order: 0;
-    /* background: blue; */
   }
 
   .tags-list {
@@ -578,11 +555,7 @@ Recipes
   }
 }
 
-/*
-=============== 
-Error
-===============
-*/
+/* Error */
 .error-page {
   text-align: center;
   padding-top: 5rem;
@@ -592,12 +565,7 @@ Error
   font-size: 9rem;
 }
 
-/*
-=============== 
-About Page
-===============
-*/
-
+/* About Page */
 .about-page h2 {
   text-transform: none;
   font-weight: bold;
@@ -630,11 +598,7 @@ About Page
   text-align: center;
 }
 
-/*
-=============== 
-Contact Page
-===============
-*/
+/* Contact Page */
 .contact-form {
   width: 100%;
   margin: 0;
@@ -653,12 +617,7 @@ Contact Page
   }
 }
 
-/*
-=============== 
-Tags Page
-===============
-*/
-
+/* Tags Page */
 .tags-wrapper {
   display: grid;
   gap: 2rem;
@@ -700,7 +659,6 @@ Tags Page
 }
 
 /* Recipe Template */
-
 .recipe-hero {
   display: grid;
   gap: 3rem;
